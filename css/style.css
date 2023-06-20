@@ -57,14 +57,14 @@ small {
   height: 48.06px;
 }
 .phone-number {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 }
 .phone-number img {
   width: 38.46px;
   height: 38.36px;
 }
 .loction {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 }
 .loction img {
   width: 32.76px;
@@ -76,6 +76,9 @@ small {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+}
+.social-link li {
+  padding-left: 0.3rem;
 }
 /* navbar css */
 .nav-link {
@@ -117,4 +120,50 @@ small {
   line-height: 94px;
   text-transform: uppercase;
   padding: 23.35px 0 78px 0;
+}
+/* vission mission section */
+.about p {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--btn-color);
+}
+.about h2 {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+  color: #131839;
+  text-transform: uppercase;
+  padding-bottom: 42px;
+}
+.mission h5 {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #131839;
+  text-transform: uppercase;
+}
+.mission p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #131839;
+}
+.mission a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
 }
