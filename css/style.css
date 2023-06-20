@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --btn-color: #ff6138;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+small {
+  font-size: 16px;
+  color: #555555;
+}
+
+.btn-mostan {
+  background: var(--btn-color);
+
+  border: none;
+  width: 195px;
+  height: 72px;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-mostan-2 {
+  background: #ffffff;
+
+  border: none;
+  width: 195px;
+  height: 72px;
+  color: #000000;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-left: 5px solid var(--btn-color);
+}
+
+.fa-solid {
+  transform: rotate(-45deg);
+  padding-left: 0.2rem;
+}
+
+/* top nav css */
+.brand img {
+  width: 180px;
+  height: 48.06px;
+}
+.phone-number {
+  padding-right: 1rem;
+}
+.phone-number img {
+  width: 38.46px;
+  height: 38.36px;
+}
+.loction {
+  padding-right: 1rem;
+}
+.loction img {
+  width: 32.76px;
+  height: 43px;
+}
+.number-info,
+.location-info p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+/* navbar css */
+.nav-link {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #131839;
+}
+/* hero css */
+
+.hero-bg {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 24, 57, 0.73),
+      rgba(19, 24, 57, 0.73)
+    ),
+    url(../images/hero-bg.png);
+  height: 939px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-info-inner p {
+  text-transform: uppercase;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+.hero-info-inner h2 {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 101px;
+  line-height: 94px;
+  text-transform: uppercase;
+  padding: 23.35px 0 78px 0;
+}
