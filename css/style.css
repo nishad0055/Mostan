@@ -178,3 +178,68 @@ small {
 .col-4 {
   padding: 111px 65px 65px 65px;
 }
+
+/* Offer css */
+
+.services img {
+  position: relative;
+}
+
+.overlay-bg {
+  position: absolute;
+  background: rgba(19, 24, 57, 0.9);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+
+  width: 350px;
+  height: 188px;
+  top: 66%;
+}
+.overlay-bg-2 {
+  position: absolute;
+  background: rgba(255, 97, 56, 0.91);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+
+  width: 350px;
+  height: 188px;
+  top: 66%;
+}
+.overlay-border {
+  position: absolute;
+  width: 24px;
+  height: 89px;
+  top: 52.5%;
+  left: 93.2%;
+  background: #ff6138;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.overlay-border-2 {
+  position: absolute;
+  width: 24px;
+  height: 89px;
+  top: 52.5%;
+  left: 93.2%;
+  background: #131839;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.overlay-text {
+  position: absolute;
+  left: 19%;
+  top: 81.5%;
+}
+.overlay-text p {
+  color: white;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.overlay-text small {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+}
