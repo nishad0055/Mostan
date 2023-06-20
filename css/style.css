@@ -166,4 +166,15 @@ small {
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
+  position: relative;
+}
+.mission a hr {
+  left: 107%;
+  position: absolute;
+  top: -7px;
+  width: 15px;
+  border: 1px solid #131839;
+}
+.col-4 {
+  padding: 111px 65px 65px 65px;
 }
