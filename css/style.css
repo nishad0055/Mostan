@@ -180,6 +180,25 @@ small {
 }
 
 /* Offer css */
+.service-title {
+  margin-top: 100px;
+}
+.service-title p {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ff6138;
+}
+.service-title h2 {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+}
 
 .services img {
   position: relative;
