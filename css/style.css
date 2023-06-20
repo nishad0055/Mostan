@@ -175,7 +175,7 @@ small {
   width: 15px;
   border: 1px solid #131839;
 }
-.col-4 {
+.col-pad {
   padding: 111px 65px 65px 65px;
 }
 
@@ -261,4 +261,12 @@ small {
   font-size: 18px;
   line-height: 30px;
   color: white;
+}
+
+/* case study css */
+.case-study-links .nav-item {
+  padding-left: 1rem;
+}
+.gap {
+  row-gap: 20px;
 }
