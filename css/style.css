@@ -270,3 +270,45 @@ small {
 .gap {
   row-gap: 20px;
 }
+
+/* Frequently css */
+.frequently-bg {
+  width: 100%;
+  height: 936px;
+  background: #f2f2f4;
+  position: relative;
+}
+.faq-img {
+  position: absolute;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 24, 57, 0.73),
+      rgba(19, 24, 57, 0.73)
+    ),
+    url(../images/annotation.png);
+  width: 719px;
+  height: 937px;
+  top: 0;
+  right: 0;
+}
+.faq-info {
+  padding-top: 124px;
+  padding-right: 224px;
+}
+.faq-info p {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ff6138;
+}
+.faq-info h2 {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+  color: #131839;
+}
