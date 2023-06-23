@@ -371,13 +371,26 @@ span {
   background: #fff;
 }
 /* testimonial */
+#testimonial {
+  margin-top: 100px;
+  margin-bottom: 156px;
+}
+.testimonial-header {
+  margin-bottom: 53px;
+}
+.testimonial-info img {
+  width: 85px;
+  height: 82px;
+}
+.testimonial-info {
+  border: 7px solid rgba(19, 24, 57, 0.15);
+  padding: 39px;
+  position: relative;
+}
+.qutoes img {
+  position: absolute;
+  right: 10%;
+  background: #fff;
 
-.customer-testimonial h6 {
-  font-family: "Rajdhani";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #131839;
+  padding: 0 5px;
 }
