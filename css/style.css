@@ -32,12 +32,13 @@ span {
   background: var(--btn-color);
 
   border: none;
-  width: 195px;
+  width: 210px;
   height: 72px;
   color: white;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
+  padding: 2px;
 }
 .btn-mostan-2 {
   background: #ffffff;
@@ -393,4 +394,57 @@ span {
   background: #fff;
 
   padding: 0 5px;
+}
+
+/* Get in touch */
+.get-touch-header {
+  margin-bottom: 54px;
+}
+.get-touch-right-side {
+  background-color: #131839;
+
+  height: 573px;
+  border-radius: 50%;
+  position: relative;
+}
+.get-touch-right-side img {
+  position: absolute;
+  top: -69px;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/* footer */
+#footer {
+  background: #f2f2f4;
+  padding: 90px 0;
+}
+
+.footer-header {
+  color: #555;
+  font-size: 20px;
+  font-family: Rajdhani;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.footer-menu {
+}
+.footer-menu li {
+  list-style-type: disc;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: #555;
+  font-size: 15px;
+  font-family: Open Sans;
+  line-height: 43px;
+}
+.ctk-title {
+  color: #555;
+  font-size: 15px;
+  font-family: Open Sans;
+  line-height: 26px;
 }
