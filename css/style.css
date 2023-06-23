@@ -349,7 +349,27 @@ span {
 .accordion-body {
   background-color: #f2f2f4;
 }
-
+.bottom-info {
+  padding: 82px 0px 48px 109px;
+}
+.bottom-info h3 {
+  font-size: 60px;
+  font-family: Rajdhani;
+  font-weight: 700;
+  color: #ff6138;
+}
+.bottom-info p {
+  color: #fff;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.bottom-border {
+  width: 2px;
+  height: 36.123px;
+  border-right: 2px solid;
+  background: #fff;
+}
 /* testimonial */
 
 .customer-testimonial h6 {
